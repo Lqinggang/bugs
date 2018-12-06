@@ -1,0 +1,10 @@
+gcc -c main.c -o main.o 
+main.c: In function ‘add’:
+main.c:14:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+main.c:17:1: error: expected ‘{’ at end of input
+ }
+ ^
+Makefile:5: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
