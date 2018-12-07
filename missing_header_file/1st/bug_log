@@ -1,0 +1,6 @@
+gcc -c main.c -o main.o
+main.c: In function ‘main’:
+main.c:21:58: warning: comparison between pointer and integer
+  if(inet_ntop(AF_INET, argv[1], buff, sizeof(socklen_t)) == NULL) {
+                                                          ^
+gcc main.o -o main
