@@ -1,0 +1,5 @@
+error:Segmentation fault
+
+note.
+in the test.c file, we give a null pointer assignment.
+
