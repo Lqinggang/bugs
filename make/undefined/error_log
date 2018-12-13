@@ -1,0 +1,4 @@
+main.o: In function `main':
+main.c:(.text+0x1f): undefined reference to `add'
+collect2: error: ld returned 1 exit status
+make: *** [main] Error 1
