@@ -1,0 +1,10 @@
+Please use 'make' to compile 
+and run:
+./udpserv01 &
+and
+./udpcli01
+
+
+more see dg_cli.c
+
+Note: see the original codee. please see UNP
