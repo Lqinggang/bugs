@@ -1,0 +1,17 @@
+main.c: In function ‘main’:
+main.c:15:10: error: conflicting types for ‘repeat’
+     int *repeat;
+          ^
+main.c:14:9: note: previous declaration of ‘repeat’ was here
+     int repeat;
+         ^
+main.c:16:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+     printf("%d\n", repeat);
+            ^
+main.c:19:9: error: redeclaration of ‘repeat1’ with no linkage
+     int repeat1;
+         ^
+main.c:18:9: note: previous declaration of ‘repeat1’ was here
+     int repeat1;
+         ^
+make: *** [main.o] Error 1
