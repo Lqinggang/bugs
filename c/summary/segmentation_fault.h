@@ -1,0 +1,7 @@
+#ifndef BUGS_C_SUMMARY_SEGMENTATION_FAULT_H
+#define BUGS_C_SUMMARY_SEGMENTATION_FAULT_H
+
+extern char *assignment(char *ch);
+
+#endif  /* BUGS_C_SUMMARY_SEGMENTATION_FAULT_H */
+
